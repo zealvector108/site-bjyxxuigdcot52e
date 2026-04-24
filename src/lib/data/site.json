@@ -1,40 +1,259 @@
 {
-	"templateId": "generic",
-	"businessName": "Your Business",
-	"tagline": "Professional services you can trust",
-	"primaryColor": "#7c3aed",
-	"secondaryColor": "#f3f4f6",
-	"font": "Inter",
-	"heroImageUrl": "",
-	"aboutImageUrl": "",
-	"aboutText": "",
-	"footerText": "",
-	"whatsappNumber": "",
-	"googleMapsEmbedUrl": "",
-	"web3formsAccessKey": "",
-	"email": "",
-	"phone": "",
-	"address": "",
-	"hours": "",
-	"hero": { "headline": "", "subheadline": "", "ctaText": "Get a Quote", "image": "", "imagePrompt": "" },
-	"about": { "text": "", "image": "", "imagePrompt": "" },
-	"contact": { "email": "", "phone": "", "address": "", "hours": "", "whatsappNumber": "" },
-	"services": [],
-	"products": [],
-	"testimonials": [],
-	"pages": [
-		{
-			"slug": "home",
-			"name": "Home",
-			"sections": [
-				{ "type": "hero" },
-				{ "type": "services" },
-				{ "type": "testimonials" },
-				{ "type": "about" },
-				{ "type": "contact" },
-				{ "type": "footer" }
-			]
-		}
-	],
-	"sections": []
+  "aboutImageUrl": "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?w=800",
+  "aboutText": "Handcrafted vintage and retro pieces to elevate your space. Each item tells a story of timeless design and quality craftsmanship.",
+  "address": "Berlin, Germany",
+  "businessName": "Midcentury Modern",
+  "email": "hello@midcenturymodern.com",
+  "featuredItems": [],
+  "font": "Playfair Display",
+  "footerText": "Bringing mid-century elegance to modern homes.",
+  "heroImageUrl": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1600",
+  "hours": "Mon–Sat, 10am–7pm",
+  "industry": "beauty",
+  "pages": [
+    {
+      "name": "Home",
+      "sections": [
+        {
+          "style": "fullscreen",
+          "type": "hero"
+        },
+        {
+          "items": [
+            "Chairs",
+            "Armchair",
+            "Desk",
+            "Sideboard",
+            "Lighting",
+            "Decor"
+          ],
+          "type": "featuredCollection"
+        },
+        {
+          "title": "Shop Our Favourites",
+          "type": "productGrid"
+        },
+        {
+          "layout": "image-left",
+          "type": "about"
+        },
+        {
+          "layout": "simple",
+          "type": "contact"
+        },
+        {
+          "type": "footer"
+        }
+      ],
+      "slug": "home"
+    },
+    {
+      "name": "Services",
+      "sections": [
+        {
+          "style": "minimal",
+          "type": "hero"
+        },
+        {
+          "type": "services"
+        },
+        {
+          "type": "contact"
+        },
+        {
+          "type": "footer"
+        }
+      ],
+      "slug": "services"
+    },
+    {
+      "name": "About",
+      "sections": [
+        {
+          "style": "minimal",
+          "type": "hero"
+        },
+        {
+          "type": "about"
+        },
+        {
+          "type": "testimonials"
+        },
+        {
+          "type": "footer"
+        }
+      ],
+      "slug": "about"
+    },
+    {
+      "name": "Contact",
+      "sections": [
+        {
+          "style": "minimal",
+          "type": "hero"
+        },
+        {
+          "type": "contact"
+        },
+        {
+          "type": "footer"
+        }
+      ],
+      "slug": "contact"
+    }
+  ],
+  "phone": "+49 30 1234 5678",
+  "primaryColor": "#8B5A2B",
+  "products": [
+    {
+      "description": "Vintage velvet armchair",
+      "imageUrl": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=400",
+      "name": "Armchair",
+      "price": 250
+    },
+    {
+      "description": "Mid-century writing desk",
+      "imageUrl": "https://images.unsplash.com/photo-1593642532744-d377ab507dc8?w=400",
+      "name": "Desk",
+      "price": 380
+    },
+    {
+      "description": "Teak wood sideboard",
+      "imageUrl": "https://images.unsplash.com/photo-1598300186792-7e36e5f2f0a8?w=400",
+      "name": "Sideboard",
+      "price": 520
+    },
+    {
+      "description": "Expandable dining table",
+      "imageUrl": "https://images.unsplash.com/photo-1615066390972-565e1df2bd5a?w=400",
+      "name": "Dining Table",
+      "price": 890
+    }
+  ],
+  "secondaryColor": "#F5E6D3",
+  "sections": [
+    {
+      "layout": "centered",
+      "style": "fullscreen",
+      "type": "hero"
+    },
+    {
+      "layout": "image-left",
+      "type": "about"
+    },
+    {
+      "layout": "simple",
+      "type": "contact"
+    },
+    {
+      "items": [
+        "Chairs",
+        "Armchair",
+        "Desk",
+        "Sideboard",
+        "Lighting",
+        "Decor"
+      ],
+      "type": "featuredCollection"
+    },
+    {
+      "title": "Shop Our Favourites",
+      "type": "productGrid"
+    }
+  ],
+  "services": [
+    {
+      "description": "Expert advice on styling your space with midcentury and retro pieces.",
+      "durationHours": "60 min",
+      "image": "",
+      "imagePrompt": "",
+      "name": "Interior Consultation",
+      "popular": true,
+      "priceFrom": 75
+    },
+    {
+      "description": "We track down rare and hard-to-find midcentury pieces from across Europe.",
+      "durationHours": "per request",
+      "image": "",
+      "imagePrompt": "",
+      "name": "Furniture Sourcing",
+      "popular": false,
+      "priceFrom": 150
+    },
+    {
+      "description": "Professional restoration of vintage furniture to bring it back to glory.",
+      "durationHours": "1-2 weeks",
+      "image": "",
+      "imagePrompt": "",
+      "name": "Restoration Service",
+      "popular": false,
+      "priceFrom": 200
+    }
+  ],
+  "tagline": "Curated vintage and retro home decor from Berlin",
+  "templateId": "homeDecor",
+  "testimonials": [
+    {
+      "author": "Klara M.",
+      "location": "Berlin",
+      "rating": 5,
+      "text": "The mid-century armchair I bought is absolutely stunning. The quality is unmatched."
+    },
+    {
+      "author": "Stefan R.",
+      "location": "Munich",
+      "rating": 5,
+      "text": "Found the perfect teak sideboard. The wood grain is incredible in person."
+    },
+    {
+      "author": "Anna L.",
+      "location": "Hamburg",
+      "rating": 5,
+      "text": "They helped me furnish my entire apartment. Every piece tells a story."
+    },
+    {
+      "author": "Max P.",
+      "location": "Cologne",
+      "rating": 4,
+      "text": "The vintage lamp I got is a real conversation starter. Excellent condition."
+    },
+    {
+      "author": "Lena B.",
+      "location": "Frankfurt",
+      "rating": 5,
+      "text": "Restoration work on my grandmother's chair was flawless. True craftsmen."
+    },
+    {
+      "author": "Thomas H.",
+      "location": "Berlin",
+      "rating": 5,
+      "text": "Sourced a rare Eames knock-off that I'd been hunting for years."
+    },
+    {
+      "author": "Ingrid S.",
+      "location": "Stuttgart",
+      "rating": 5,
+      "text": "Beautiful collection. The staff really knows their mid-century pieces."
+    },
+    {
+      "author": "Felix W.",
+      "location": "Dusseldorf",
+      "rating": 4,
+      "text": "My dining table from them is the centrepiece of my home. Gorgeous."
+    },
+    {
+      "author": "Marie K.",
+      "location": "Leipzig",
+      "rating": 5,
+      "text": "Worth the trip from Leipzig. The quality and selection are worth it."
+    }
+  ],
+  "whatsappNumber": "491234567890",
+  "contact": {
+    "email": "hello@midcenturymodern.com",
+    "phone": "+49 30 1234 5678",
+    "address": "Berlin, Germany",
+    "hours": "Mon–Sat, 10am–7pm",
+    "whatsappNumber": "491234567890"
+  }
 }
